@@ -1,0 +1,15 @@
+# Gradle / IntelliJ
+.gradle/
+build/
+out/
+.idea/
+*.iml
+
+# 키와 비밀번호
+.env
+*.env
+application-local.yml
+application-secret.yml
+
+# OS
+.DS_Store

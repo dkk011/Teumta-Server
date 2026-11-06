@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>틈타 개인정보처리방침</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><img src="icon.png" alt=""><span>틈타</span></header>
+  <h1>개인정보처리방침</h1>
+  <p class="meta">시행일 <span class="todo">2026년 11월 17일</span> · 운영자 <span class="todo">개발자 이름</span></p>
+
+  <section id="summary">
+    <h2>한눈에 보기</h2>
+    <ul>
+      <li>계정을 만들 때 이메일을 받고, 비밀번호는 암호화해서 저장해요.</li>
+      <li>퇴근길 설정(회사역, 집역, 귀가 목표, 역 진입 시간)을 계정에 저장해요.</li>
+      <li>휴대폰의 위치 정보(GPS)는 사용하지 않아요. 장소는 직접 검색해서 입력해요.</li>
+      <li>탈퇴하면 계정과 설정을 바로 삭제해요. <a href="account-deletion.html">계정 삭제 방법</a></li>
+    </ul>
+  </section>
+
+  <section id="items">
+    <h2>1. 처리하는 개인정보와 목적</h2>
+    <table>
+      <tr><th>이메일로 가입</th><td>이메일, 비밀번호(복호화할 수 없게 암호화해서 저장), 약관 동의 일시 · 회원 식별, 로그인, 비밀번호 재설정 안내</td></tr>
+      <tr><th>Google로 가입</th><td>이메일, Google 계정 식별자 · 회원 식별, 로그인</td></tr>
+      <tr><th>퇴근길 설정</th><td>회사역, 집역, 귀가 목표 시각, 역 진입 시간 · 들를 수 있는 시간 계산, 다른 기기에서 같은 설정 사용</td></tr>
+      <tr><th>서비스 이용 중</th><td>장소 검색어, 검색한 장소의 좌표 · 장소 검색과 경유 시간 계산. 계정과 연결해 저장하지 않아요.</td></tr>
+      <tr><th>자동 수집</th><td>접속 IP, 접속 일시, 앱 버전, 오류 기록 · 장애 대응, 부정 이용 방지(로그인 시도 제한)</td></tr>
+    </table>
+    <p>이름, 전화번호, 연락처, 휴대폰 위치 정보는 받지 않아요. 최근 검색 기록은 휴대폰에만 저장되고 서버로 보내지 않아요.</p>
+  </section>
+
+  <section id="retention">
+    <h2>2. 보관 기간</h2>
+    <ul>
+      <li>계정 정보와 퇴근길 설정: 탈퇴할 때까지. 탈퇴하면 바로 삭제해요.</li>
+      <li>로그인 유지 정보(토큰): 최대 14일. 로그아웃하거나 탈퇴하면 바로 폐기해요.</li>
+      <li>비밀번호 재설정 링크: 30분.</li>
+      <li>접속 기록: 보안을 위해 <span class="todo">30일</span> 보관한 뒤 삭제해요.</li>
+    </ul>
+  </section>
+
+  <section id="third-party">
+    <h2>3. 제3자 제공과 처리 위탁</h2>
+    <p>개인정보를 다른 회사에 팔거나 제공하지 않아요. 서비스를 운영하려고 아래 업체에 처리를 맡기거나 외부 기능을 사용해요.</p>
+    <table>
+      <tr><th><span class="todo">서버 호스팅 업체</span></th><td>서버와 데이터베이스 운영(계정, 퇴근길 설정 보관)</td></tr>
+      <tr><th>Google</th><td>Google 로그인 확인. 사용자가 Google로 계속하기를 누를 때만 Google 계정 정보를 받아요.</td></tr>
+      <tr><th>카카오 (로컬 API)</th><td>장소 검색. 검색어만 서버에서 보내고, 계정 정보는 보내지 않아요.</td></tr>
+      <tr><th>SK텔레콤 (TMAP API)</th><td>장소와 역 사이 도보 시간 계산. 좌표만 보내고, 계정 정보는 보내지 않아요.</td></tr>
+      <tr><th>Google (Gmail)</th><td>비밀번호 재설정 메일 발송(이메일 주소)</td></tr>
+    </table>
+    <p id="overseas"><span class="todo">서버나 메일 발송 서비스가 국외에 있다면 여기에 이전받는 자, 국가, 이전 항목, 시기와 방법, 보유 기간을 적어요.</span></p>
+  </section>
+
+  <section id="destroy">
+    <h2>4. 파기 방법</h2>
+    <p>보관 기간이 끝나거나 탈퇴하면 데이터베이스에서 다시 복구할 수 없게 지워요.</p>
+  </section>
+
+  <section id="rights">
+    <h2>5. 이용자의 권리</h2>
+    <p>언제든 내 개인정보를 확인, 수정, 삭제하거나 처리를 멈춰 달라고 요청할 수 있어요.</p>
+    <ul>
+      <li>확인과 수정: 앱의 설정 화면</li>
+      <li>삭제(탈퇴): 앱의 설정 → 회원 탈퇴, 또는 <a href="account-deletion.html">계정 삭제 요청 페이지</a></li>
+      <li>그 밖의 요청: 아래 문의처로 메일</li>
+    </ul>
+    <p>만 14세 미만은 가입할 수 없어요.</p>
+  </section>
+
+  <section id="security">
+    <h2>6. 안전하게 지키는 방법</h2>
+    <ul>
+      <li>비밀번호는 BCrypt로 암호화해 저장하고, 원래 값은 저장하지 않아요.</li>
+      <li>앱과 서버 사이 통신은 모두 HTTPS로 암호화해요.</li>
+      <li>휴대폰에 저장하는 로그인 정보는 암호화해요.</li>
+      <li>로그인 시도가 반복되면 잠시 막아요.</li>
+      <li>서버와 데이터베이스는 운영자만 접근할 수 있어요.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>7. 개인정보 보호책임자와 문의</h2>
+    <table>
+      <tr><th>책임자</th><td><span class="todo">이름</span></td></tr>
+      <tr><th>이메일</th><td><a href="mailto:teumta.app@gmail.com">teumta.app@gmail.com</a></td></tr>
+    </table>
+    <p>개인정보 침해 신고나 상담은 개인정보침해신고센터(privacy.kisa.or.kr, 국번 없이 118)에도 할 수 있어요.</p>
+  </section>
+
+  <section id="changes">
+    <h2>8. 바뀔 때</h2>
+    <p>내용이 바뀌면 시행 7일 전에 앱과 이 페이지에서 알려요.</p>
+  </section>
+
+  <nav><a href="./">틈타 홈</a> · <a href="terms.html">서비스 이용약관</a> · <a href="account-deletion.html">계정 삭제 요청</a></nav>
+</main>
+</body>
+</html>
